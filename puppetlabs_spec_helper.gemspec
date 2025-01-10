@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rspec-github', '~> 2.0'
   spec.add_runtime_dependency 'rspec-puppet', '~> 5.0'
 
-  spec.add_development_dependency 'voxpupuli-rubocop', '~> 2.8.0'
+  spec.add_development_dependency 'voxpupuli-rubocop', '~> 3.0.0'
 
   spec.requirements << 'puppet, >= 7.0.0'
 end
